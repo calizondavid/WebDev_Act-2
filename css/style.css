@@ -1,0 +1,391 @@
+/*HOME*/
+body{
+    background-color: #eef0f5 ;
+}
+.home{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 500px; 
+    height: 715px; 
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+.home h1{
+    margin: 0px 0 10px 0;
+    color: navy;
+}
+.home .man{
+    height: 120px; 
+    width: 120px; 
+    border-radius: 100px; 
+    border: 3px solid navy;
+    box-shadow: 0px 5px 10px gray;
+    margin: -10px 0 -10px 0;
+}
+.home h2{
+    margin: 10px 0 0 0;
+    font-size: 25px;
+    color: navy;
+}
+.home .roles{
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 0px
+}
+.home .roles #td1{
+    padding: 0 10px; 
+    border: none;
+}
+.home .roles #td2, .roles #td3{
+    padding: 0 10px; 
+    border: none;
+    border-left: 1px solid black;
+}
+.home .nav{
+    border-collapse: collapse; 
+    font-size: 15px; 
+    margin: 10px 0 5px 0;
+}
+.home .nav button{
+    border: 2px solid navy;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 0 30px 0 30px
+}
+.home .nav button a{
+    text-decoration: none;
+    color: black;
+}
+.home .nav button:hover{
+    transform: scale(1.05);
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+}
+.home .welcome{
+    margin: 0px 170px 5px 0px; 
+    font-size: 20px; 
+    width: 300px
+}
+.home .intro1{
+    padding: 0px; height: 
+    10px; width: 300px; 
+    margin: 0px 185px 6px 15px; 
+    line-height: 1;
+}
+.home .intro1 td{
+   font-size: 14px;
+}
+.home .intro2{
+    padding: 1px; 
+    width: 300px; 
+    margin: 0px 180px 6px 10px; 
+    line-height: 1
+}
+.home .intro2 td{
+   font-size: 14px;
+}
+.home .goal-text{
+    margin: 0px 395px 5px 0px; font-size: 20px
+}
+.home .goal{
+    padding: 0px; 
+    width: 300px; 
+    margin: 0px 180px 6px 10px; 
+    line-height: 1.1
+}
+.home .goal td{
+    font-size: 14px;
+}
+.home .quote-text{
+    margin: 0px 170px 0px 0px; font-size: 20px; width: 300px
+}
+.home .quote{
+    padding: 0px; 
+    width: 480px; 
+    margin: 0px 0px 0px 0px; 
+    line-height: 1.1;  
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px lightgray;
+}
+.home .quote #quotation{
+    font-size: 14px; 
+    vertical-align: top; 
+    font-size:50px; 
+    text-align:right;
+}
+.home .quote #text{
+    font-size: 14px; 
+    padding: 10px 0 0px 0;
+}
+.home .quote #author{
+    font-size: 14px; 
+    text-align: right; 
+    padding: 0px 0 0px 0;
+}
+.home .class-text{
+    margin: 5px 170px 0px 0px; font-size: 20px; width: 300px
+}
+.home .contact{
+    width: 400px; 
+    padding: 0px; 
+    margin: 0px 70px 0px 0px; 
+    line-height: 1.1
+}
+.home .contact p{
+    margin: 0; font-size: 14px;
+}
+.home #credits{
+    font-size: 12px; 
+    margin: 7px;
+}
+
+/*ABOUT*/
+.about{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin-left: 500px; 
+    height: 715px; 
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    border-spacing: 0;
+    overflow: hidden; 
+}
+.about #about-text{
+    margin: 5px 0 0px 0; 
+    color: navy;
+    text-align:center;
+    width:100%;
+}
+.about .nav button{
+    border: 2px solid navy;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 0 30px 0 30px
+}
+.about .nav button a{
+    text-decoration: none;
+    color: black;
+}
+.about .nav button:hover{
+    transform: scale(1.05);
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+}
+.about .information{
+    padding: 0px; height: 10px; width: 485px; margin: -10px 0px 0px 15px; line-height: 1.25;
+}
+.about .information #intro{
+    font-size: 13px; vertical-align: top; padding-top: 10px
+}
+.about .information #man-img{
+    border-radius: 10px;
+    height: 125px; 
+    width: 125px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+.about .skills{
+    padding: 0px; width: 485px; margin: -10px 0px 0px 10px; line-height: 1.25
+}
+.about .skills #list{
+    font-size: 13px; padding-right: 50px; vertical-align: top; padding-top: 0px
+}
+.about .skills #skills-img{
+    border-radius: 10px; margin-left: 45px;
+    height:125px; 
+    width:188px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+.about .hobby{
+    padding: 0px; width: 485px; margin: -10px 0px 0px 10px; line-height: 1.25
+}
+.about .hobby #list{
+    font-size: 13px; padding-right: 50px; vertical-align: top; padding-top: 0px
+}
+.about .hobby #hobby-img{
+    border-radius: 10px; margin-left: 30px;
+    height: 125px;
+    width: 188px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+.about .education{
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden; 
+    margin-bottom: 0;
+    height:70px;
+    width:470px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px lightgray;
+}
+.about .education #tr1{
+    font-weight: bold;
+    font-size: 13px;
+    background-color: navy;
+    color: white;
+}
+.about .education #tr2,
+.about .education #tr3{
+    font-size: 13px;
+    background-color: #ffffff;
+}
+.about .education td{
+    text-align: center
+}
+.about #credits{
+    font-size: 12px; margin: 7px 0 0px 0;
+}
+/*PROJECTS*/
+
+.projects{ 
+    display: flex; flex-direction: 
+    column; align-items: center; 
+    margin-left: 500px; 
+    height: 715px; 
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+.projects .projects-text{
+    margin: 10px 0 0px 0; color: navy;
+}
+.projects .nav button{
+    border: 2px solid navy;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 0 30px 0 30px
+}
+.projects .nav button a{
+    text-decoration: none;
+    color: black;
+}
+.projects .nav button:hover{
+    transform: scale(1.05);
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+}
+.projects .sis{
+    width: 485px; margin: -10px 0px 0px 15px; line-height: 1.25; border-collapse: collapse;
+}
+.projects .sis #td1{
+    padding: 0; text-align: left; padding-left: 20px
+}
+.projects .sis #education-img{
+    height:125px;
+    width:177px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px lightgray;
+}
+.projects #h2sis{
+    margin: 0px 0px 5px 0px; font-size: 15px; color: navy;
+}
+.projects .sis #td2{
+    font-size: 13px; vertical-align: top; padding-top: 10px; padding-left: 60px
+}
+.projects .sis #td3{
+    padding: 0; padding-left: 40px
+}
+.projects .sis #ulsis{
+    font-size: 12px; padding: 0 0 0 40px; margin: 0
+}
+.projects .oes{
+    width: 485px; margin: -10px 0px 0px 15px; line-height: 1.25; border-collapse: collapse;
+}
+.projects .oes #td1{
+    padding: 0; text-align: center; padding-left: 10px
+}
+.projects .oes #enrollment-img{
+    height: 125px;
+    width: 167px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px lightgray;
+}
+.projects .oes #oesh2{
+    margin: 0px 0px 5px 0px; font-size: 15px; color: navy;
+}
+.projects .oes #td2{
+    font-size: 13px; vertical-align: top; padding-top: 10px; padding-left: 80px
+}
+.projects .oes #td3{
+    padding: 0; padding-left: 70px
+}
+.projects #oesul{
+    font-size: 12px; padding: 0 0 0 30px; margin: 0
+}
+.projects .tourism{
+    width: 485px; margin: -10px 0px 0px 15px; line-height: 1.25; border-collapse: collapse;
+}
+.projects .tourism #td1{
+    padding: 0; text-align: center; height: 180px
+}
+.projects .tourism #tourism-img{
+    height:125px;
+    width:188px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px lightgray;
+}
+.projects #h2tourism{
+    margin: 0px 0px 5px 0px; font-size: 15px; color: navy;
+}
+.projects .tourism #td2{
+    font-size: 13px; vertical-align: top; padding-top: 10px; padding-left: 50px
+}
+.projects .tourism #td3{
+    padding: 0; padding-left: 40px
+}
+.projects #tourismol{
+    font-size: 12px; padding: 0 0 0 30px; margin: -5px 0 0 0
+}
+.projects .contact-text{
+    margin: 0px 170px 0px 0px; font-size: 17px; width: 300px ; color: navy;
+}
+.projects .contact{
+    height: 70px;
+    width: 470px;
+    border-collapse: collapse; margin-bottom: 0px
+}
+.projects .contact #tr1{
+    font-size: 13px
+}
+.projects .contact #td1{
+    padding: 0; width: 30px; text-align: center
+}
+.projects .contact #email-img{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px
+}
+.projects .contact #tr2,
+.projects .contact #tr3{
+    font-size: 13px
+}
+.projects .contact #td2,
+.projects .contact #td3{
+    height: 20px; width: 30px; text-align: center
+}
+.projects .contact #location-img,
+.projects .contact #facebook-img{
+    height: 15px;
+    width: 15px;
+    border-radius: 15px
+}
+.projects .credits{
+    font-size: 12px; margin: 6px 0 0px 0;
+}
